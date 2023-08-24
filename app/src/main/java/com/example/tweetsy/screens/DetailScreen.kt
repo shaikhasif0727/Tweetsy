@@ -21,11 +21,15 @@ import com.example.tweetsy.viewmodels.DetailViewModel
 fun DetailScreen() {
     val detailsViewModel: DetailViewModel = hiltViewModel()
     val tweets = detailsViewModel.tweets.collectAsState()
-    LazyColumn(content = {
-        items(tweets.value){
-            TweetListItem(tweet = it.text)
-        }
-    })
+    if(tweets.value.isEmpty()){
+        LoadingScreen()
+    } else {
+        LazyColumn(content = {
+            items(tweets.value) {
+                TweetListItem(tweet = it.text)
+            }
+        })
+    }
 }
 
 @Composable
