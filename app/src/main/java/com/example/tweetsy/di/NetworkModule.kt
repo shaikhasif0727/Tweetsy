@@ -1,6 +1,6 @@
 package com.example.tweetsy.di
 
-import com.example.tweetsy.api.TweetsyAPI
+import com.example.tweetsy.data.remote.api.TweetsyAPI
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

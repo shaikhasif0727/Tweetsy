@@ -1,7 +1,7 @@
-package com.example.tweetsy.repository
+package com.example.tweetsy.data.repository
 
-import com.example.tweetsy.api.TweetsyAPI
-import com.example.tweetsy.models.Tweet
+import com.example.tweetsy.data.remote.api.TweetsyAPI
+import com.example.tweetsy.data.models.Tweet
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import javax.inject.Inject

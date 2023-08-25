@@ -1,4 +1,4 @@
-package com.example.tweetsy.screens
+package com.example.tweetsy.presentation.screens
 
 import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
@@ -29,7 +29,7 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.NavHostController
 import com.example.tweetsy.R
-import com.example.tweetsy.viewmodels.CategoryViewModel
+import com.example.tweetsy.presentation.viewmodels.CategoryViewModel
 
 @Composable
 fun CategoryScreen(onClick: (String) -> Unit) {

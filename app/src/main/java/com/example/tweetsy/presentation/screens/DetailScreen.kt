@@ -1,4 +1,4 @@
-package com.example.tweetsy.screens
+package com.example.tweetsy.presentation.screens
 
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -15,7 +15,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.example.tweetsy.viewmodels.DetailViewModel
+import com.example.tweetsy.presentation.viewmodels.DetailViewModel
 
 @Composable
 fun DetailScreen() {

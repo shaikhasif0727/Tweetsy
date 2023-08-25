@@ -1,6 +1,6 @@
-package com.example.tweetsy.api
+package com.example.tweetsy.data.remote.api
 
-import com.example.tweetsy.models.Tweet
+import com.example.tweetsy.data.models.Tweet
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Header

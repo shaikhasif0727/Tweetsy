@@ -1,4 +1,4 @@
-package com.example.tweetsy.models
+package com.example.tweetsy.data.models
 
 
 import com.google.gson.annotations.SerializedName

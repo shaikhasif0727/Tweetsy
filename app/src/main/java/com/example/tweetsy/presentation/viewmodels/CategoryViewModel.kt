@@ -1,8 +1,8 @@
-package com.example.tweetsy.viewmodels
+package com.example.tweetsy.presentation.viewmodels
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.tweetsy.repository.TweetRepository
+import com.example.tweetsy.data.repository.TweetRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
